@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>primeiros passos com o DOM</title>
+    
+</head>
+<body>
+
+
+    <!--<h1>iniciando com o DOM</h1>
+    <p>
+        aqui vai o resultado
+    </p>
+    <p>Aprendendo a usar o <strong>DOM</strong> no JavaScript</p>
+    <div class="msg">
+        clique em mim
+    </div><br><br>
+
+    <div class="area">
+        clique aqui!
+    </div><br>
+
+    <h1>Somando valores</h1><br>
+<input type="number" name="txtn1" id="txtn1"> + 
+<input type="number" name="txtn2" id="txtn2">
+<input type="button" value="somar" onclick="somar()">
+
+<div id="res">Resultado</div><br>-->
+<div class="multas">
+<h1>Sistema de multas</h1>
+velocidade do carro:<br>
+<input type="number" placeholder="digite sua velocidade" name="txtvel" id="txtvel">
+<input type="button" value="verificar" onclick="calcular()">
+
+<div id="res">
+    
+</div>
+    <script>
+        function calcular() {
+            var txtv = document.querySelector('input#txtvel')
+            var res = document.querySelector('div#res')
+            var vel = Number(txtv.value)
+            res.innerHTML = `<p>sua velocidade atual é de <strong>${vel} Km/h</strong></p>`
+                if (vel > 70) {
+                    res.innerHTML += `<p>Você está acima da velocidade permitida. <strong>MULTADO!</strong></p>` 
+                } else {
+                    res.innerHTML += `<p>Você está dentro da velocidade permitida. Boa viagem!</P`
+                }
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
+        }
+    </script>
+</div><br><br>
+
+<div class="estrang">
+
+    <h1>Estrangeiro ou não!</h1>
+    digite seu país de origem:<br>
+    <input type="text" placeholder="país origem" name="paisorig" id="paisorig"><br><br>
+    digite o país onde você mora:<br>
+    <input type="text" placeholder="mora onde?" name="paismora" id="paismora">
+    <input type="button" value="verificar" onclick="verif()"><br><br>
+    <div id="texto">
+    
+    </div>
+    
+        <script>
+            
+             function verif() {
+                var paisdeor = document.querySelector('input#paisorig')
+                var paismora = document.querySelector('input#paismora')
+                var texto = document.querySelector('div#texto')
+    
+                texto.innerHTML = `<p> Voce é de <strong>${paisdeor.value}</strong></p><br>`
+                texto.innerHTML += `<p> Você mora em <strong>${paismora.value}</strong></P><br>`
+
+                if (paisdeor.value == "brasil") {
+                    texto.innerHTML += `<p>Você é <strong>brasileiro!</strong></p>`
+                } else if (paisdeor.value == "BRASIL") {
+                    texto.innerHTML += `<p>Você é <strong>brasileiro!</strong></p>`
+                } else if (paisdeor.value == "Brasil") {
+                    texto.innerHTML += `<p>Você é <strong>brasileiro!</strong></p>`
+                } else {
+                    texto.innerHTML += `<p>Você é <strong>estrangeiro</strong>!</p>`
+                }
+                
+            }
+        </script>
+    
+    </div>
+
+        <div class="containerr">
+            <div class="vota">
+                <h2>Vota ou não vota?</h2>
+                digite seu nome:<br>
+                <input type="text" name="nome" id="nome" placeholder="seu nome"><br>
+                digite sua idade:<br>
+                <input type="number" name="idade" id="idade" placeholder="idade"><br>
+                <input class="button" type="button" value="verificar" onclick="votar()">
+
+            </div>
+            
+
+         </div>
+         <div class="text-vota" id="texto2">
+
+        </div>
+
+        
+    
+        <script>
+            function votar() {
+               var nome = document.querySelector('input#nome')
+               var idade = document.querySelector('input#idade')
+               var texto = document.querySelector('div#texto2')
+               var agora = new Date()
+               var hora = agora.getHours()
+               var minut = agora.getMinutes()
+               var dia = agora.getUTCDate()
+               var mes = agora.getMonth()
+               var ano = agora.getUTCFullYear()
+
+               if (idade.value >= 16 && idade.value < 18 ) {
+                   texto.innerHTML = `<p>${nome.value}, agora são ${hora}:${minut}Hs do dia ${dia} de ${mes} do ano de ${ano}, e você tem ${idade.value}, anos e você é menor de idade e seu voto é opcional"</P>`
+               } else if (idade.value < 16 ) {
+                   texto.innerHTML = `<p>${nome.value}, agora são ${hora}:${minut}Hs do dia ${dia} de ${mes} do ano de ${ano}, você tem ${idade.value}, anos e você é menor de idade e não pode votar!"</P>`
+               } else if (idade.value >= 18 && idade.value < 65) {
+                   texto.innerHTML = `<p>${nome.value}, agora são ${hora}:${minut}Hs do dia ${dia} de ${mes} do ano de ${ano}, você tem ${idade.value}, anos e você é maior de idade e seu voto é obrigatório!"</P>`
+               } else 
+                    texto.innerHTML = `<p>${nome.value}, agora são ${hora}:${minut}Hs do dia ${dia} de ${mes} do ano de ${ano}, você tem ${idade.value}, anos e você é idoso e seu voto é opcional!"</P>`
+            }
+        </script>
+
+        <div class="containerr">
+            <div class="dia_seman">
+                <h2>dia da semana</h2>
+                <p>digite o número do dia da semana: </p>
+                
+                <input type="number" name="diaseman" id="diaseman" placeholder="digite o nº do dia"><br>
+                <input type="button" value="verificar" onclick="dia()">
+                
+            </div>
+
+        </div>
+        <div class="text-vota" id="texto3">
+
+        </div>
+
+        <script>
+
+            var texto = document.querySelector('div#texto3')   
+            var dia = 8
+            switch(dia) {
+                case 0:
+                    texto.innerHTML = 'hoje é domingo'
+                    break    
+                case 1:
+                    texto.innerHTML = 'hoje é segunda'
+                    break    
+                case 2:
+                    texto.innerHTML = 'hoje é terça'
+                    break
+                case 3:
+                    texto.innerHTML = 'hoje é quarta'
+                    break
+                case 4:
+                    texto.innerHTML = 'hoje é quinta'
+                    break    
+                case 5:
+                    texto.innerHTML = 'hoje é sexta'
+                    break    
+                case 6:
+                    texto.innerHTML = 'hoje é sabado'
+                    break    
+                case 7:
+                    texto.innerHTML = 'hoje é domingo'
+                    break
+                default: texto.innerHTML = 'dados inválidos'
+                    break                                
+            
+            }
+               
+        </script>
+
+
+
+    
+
+    <script>
+
+        
+        
+        /*var p1 = document.getElementsByTagName('h1')[0]
+        var corpo = document.body
+        var d = document.querySelector('div.msg')
+        var a = document.getElementsByClassName('area')[0]
+
+        var tn1 = document.getElementById('txtn1')
+        var tn2 = document.getElementById('txtn2')
+        var res = document.getElementById('res')
+        
+        
+
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        p1.style.color = '#000f55'
+        corpo.style.background = '#542f55'
+        document.write(p1.innerText)
+        d.style.background = 'orange'
+        d.innerText = 'oi'
+        d.style.color = 'black'
+        
+
+        function clicar() {
+            a.innerText = 'clicou!'
+            a.style.background = 'black'
+        }
+        function entrar() {
+            a.innerText = 'entrou!'
+            a.style.background = 'blue'
+        }
+        function sair() {
+            a.innerText = 'saiu!'
+            a.style.background = 'red'
+            
+        }
+
+        function somar() {
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+                res.innerHTML = 'a soma emtre ' + n1 + ' e ' + n2 + ' é ' + s
+    }
+
+    </script>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            margin-bottom: 3px;
+            color: blue;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        fieldset{
+            width: 400px;
+            margin: 0 auto;
+            border-color: darkgreen;
+            background-color: gray;
+            color: honeydew;
+            
+        }
+
+        .calcular{
+            margin-top: 10px;
+            font-size: 30px;
+            border-color: gold;
+            cursor: pointer;
+            background-color: rgb(13, 64, 233);
+            color: honeydew;
+            width: 200px;
+            height: 50px;
+        }
+
+        legend{
+            color: rgb(10, 10, 10);
+            font-size: 30px;
+            font-weight: 600;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <form method="POST" action="recebde.php">
+           
+            qual estado você está?:<br>
+            <select name="regiao">
+                <option value="1" selected>minas gerais</option>
+                <option value="2">rio de janeiro</option>
+                <option value="3">espirito santo</option>
+                <option value="4">sao paulo</option>
+                <option value="5">bahia</option>
+                <option value="6">pernambuco</option>
+                <option value="7">ceará</option>
+                <option value="8">paraná</option>
+                
+            </select>
+           
+           <input type="submit" value="verificar">
+
+       </form>
+    </div>
+</body>
+</html>

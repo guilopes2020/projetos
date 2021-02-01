@@ -1,0 +1,217 @@
+aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+}
+
+.menu-opener{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.menu-opener img{
+    width: 40px;
+}
+
+.menu-area{
+    width: 0;
+    height: 100vh;
+    background-color: #ccc;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease 0.8s;
+}
+
+/*.menu-opened{
+    width: 200px;
+}*/
+
+.menu-area, .menu-area li{
+    padding: 0;
+    list-style: none;
+}
+
+.menu-area li{
+    display: block;
+    padding: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+.menu-area li:hover{
+    background-color: #ddd;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.vermelho{
+    background-color: red;
+    color: white;
+}
+
+.verde{
+    background-color: green;
+}
+
+.fone {
+    width: 200px;
+    margin: 20px auto;
+    
+    
+}
+.btn-fone{
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: green;
+    color: rgba(236, 232, 232, 0.568);
+    font-size: 18px;
+    font-weight: 800;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    border-radius: 20px;
+}
+
+.telefone{
+    display: none;
+    width: 180px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+}
+
+.carro-array{
+    width: 300px;
+    padding: 8px;
+    margin: 20px auto;
+    background-color: rgba(78, 118, 247, 0.664);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+
+.carro-array input{
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    display: block;
+}
+
+.carro-array input:enabled{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(61, 61, 243, 0.74);
+    text-align: center;
+    outline: none;
+}
+
+.carro-array input::placeholder{
+    font-size: 18px;
+    text-align: left;
+}
+
+.result{
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+
+.carro-array input[type="button"]{
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    box-sizing: 5px 5px 10px black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.diasem{
+    width: 800px;
+    margin: 20px auto;
+    background-color: rgb(88, 88, 231);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.diasem input[type="number"]{
+    width: 550px;
+    height: 40px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    display: block;
+}
+
+.diasem input[type="button"]{
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    display: block;
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+p.resposta{
+    width: 600px;
+    margin: 20px auto;
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.hora{
+    width: 500px;
+    margin: 20px auto;
+    box-sizing: 5px 5px 10px black;
+    border-radius: 15px;
+    background-color: rgb(90, 198, 248);
+}
+
+p.horaatual{
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: tomato;
+    text-align: center;
+}
+
+.analisValores{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}

@@ -1,0 +1,200 @@
+@keyframes mudaCor{
+    0%{
+        background-color: blue;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: brown;
+        margin-top: 150px;
+        margin-left: 165px;
+    }
+    50%{
+        background-color: chartreuse;
+        margin-top: 385px;
+        margin-left: 405px;
+    }
+    75%{
+        background-color: red;
+        margin-top: 695px;
+        margin-left: 705px;
+    }
+    100%{
+        background-color: black;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    height: auto;
+}
+
+body{
+    margin: 0;
+}
+
+.exemp{
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.texto{
+    font-size: 17px !important;
+    color: blue;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Nothing You Could Do';
+    text-align: justify;
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+
+.exemp .texto a{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Yesteryear';
+}
+
+.exemp .texto a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.exemp .texto a:visited{
+    color: rgb(241, 168, 168);
+}
+
+.cafe{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+.cafe li{
+    padding: 10px;
+    cursor: pointer;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cafe li:hover{
+    color: green;
+}
+
+table{
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(196, 197, 194);
+}
+
+table thead{
+    background-color: rgb(245, 240, 240);
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:hover{
+    background-color: #eee;
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+
+.loginCadastro{
+    width: 700px;
+    margin: 5px auto;
+    margin-top: 5px;
+    background:linear-gradient(75deg, rgb(37, 37, 245), rgb(110, 201, 236));
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.486);
+    border-radius: 15px;
+}
+
+.loginUsuario{
+    width: 600px;
+    margin-left: 70px;
+}
+
+.loginUsuario h2{
+    width: 120px;
+    margin-top: 2px !important;
+    color: rgb(22, 97, 236);
+    font-weight: 500;
+    margin-left: 270px;
+    text-align: right;
+}
+
+.login{
+    text-align: right;
+}
+
+.nomeCadastro{
+    outline: none;
+}
+
+.animacoes{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    transition: all linear 6s;
+    cursor: pointer;
+    /*animation-name: mudaCor;
+    animation-delay: 1s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;*/
+}
+
+.animacoes:hover{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 755px;
+}
+
+.animacoes{
+    animation-name: mudaCor;
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 405px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.container{
+    display: flex;
+    background-color: #dddddd;
+    margin: 0px;
+    height: 750px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+    
+}
+
+.container div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 3px solid blue;
+}
+
+form legend{
+    font-size: 17px;
+    color: brown;
+    text-align: left;
+}
+
+form input[type=text], form input[type=email]{
+    margin-top: 30px;
+    width: 80%;
+    display: inline-block;
+    padding: 10px 13px;
+    border: 1px solid #ccc;
+    
+}
+
+.dig_nome::placeholder{
+    color: rgb(73, 65, 65);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form input[type=text]:focus, form input[type=email]:focus{
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+form select{
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+}
+
+form h2{
+    margin-top: 20px;
+    color: rgb(63, 94, 187);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.radio-input{
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.radio-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: royalblue;
+}
+
+.lista, .lista:active, .lista:focus{
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+
+
+/*body{
+    
+}
+.artigo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(101, 113, 128, 0.377);
+    
+}
+
+.artigo h1{
+    color: rgb(31, 16, 241);
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.artigo p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(34, 30, 30);
+    padding: 15px;
+    
+    
+}
+
+.lista, .lista-2{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.lista li, .lista-2 li{
+    font-size: 20px;
+}
+
+.lista li a, .lista-2 li a{
+    text-decoration: none;
+    color: rgba(8, 71, 243, 0.788);
+}
+
+.lista li a:hover, .lista-2 li a:hover{
+    color: rgb(199, 252, 7);
+    transition: 0.5s;
+}
+
+.lista li .tipo-3, .lista-2 li .tipo-3{
+    color: rgb(25, 26, 25);
+}
+
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+    
+}
+.article{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: -2px;
+    width: 640px;
+    box-sizing: border-box;
+    outline: 50px solid blue;
+    
+    
+    
+    
+}
+
+.pai{
+    margin: 0 auto;
+    width: 1280px;
+    padding: 20px 0;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+.child{
+    width: 640px;
+    height: 300px;
+    background-color: red;
+    box-sizing: border-box;
+    border: black 1px solid;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px 0;
+    color: rgb(252, 227, 8);
+    margin-bottom: 20px;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.box{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+    background-color: gray;
+    
+    
+    
+}
+
+.box-2{
+    
+    height: 900px;
+    display: inline-block;
+   
+}
+
+.links{
+    border: red 1px solid;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+a[attr*="google"]{
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.form{
+    width: 400px;
+    margin: 20px auto;    
+}
+
+.inp{
+    background-color: greenyellow;
+}
+
+.sub{
+    color: red;
+    background-color: indigo;
+    cursor: pointer;
+}
+
+.table1{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+table tr td{
+    border: 3px solid black;
+    height: 100px;
+    vertical-align: text-top;
+    background-color: rgb(200,200,200);
+    text-align: center;
+}
+
+.cabectab{
+    margin: 0 auto;
+    border: solid 1px rgb(66, 12, 214);
+    background-color: rgb(66, 12, 214);
+}
+
+.corpotab{
+    margin: 0 auto;
+    border: rgb(218, 233, 4) 1px solid;
+}
+
+
+@media screen and (max-width: 720px){
+    .box{
+        height: auto;
+    }
+}*/
+
+
+

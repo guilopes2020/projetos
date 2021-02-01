@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>java script</title>
+
+</head>
+<body>
+
+	<script>
+
+		//recebe os parâmetros
+var nome = prompt('Informe o nome da pessoa')
+var altura = prompt('Informe a altura da pessoa em centímetros')
+var peso = prompt('Informe o peso da pessoa')
+
+//converte as cadeias de caracteres para dados do tipo float
+altura = parseFloat(altura)
+peso = parseFloat(peso)
+
+//abaixo é feito a conversão da altura de centímetros para metros
+altura = altura / 100
+
+//realiza o cálculo de img
+var imc = peso / (altura * altura)
+
+//testes condicionais para identificar a classificação do peso com base no imc
+var classificacao = document.write('')
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

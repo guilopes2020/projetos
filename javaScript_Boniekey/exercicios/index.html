@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <aside>
+        <div class="menu-opener" onclick="menuToggle()">
+            <img src="images/menu.png">
+        </div>
+        <div class="menu-area">
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+    </aside>
+
+   <h2 class="ola" onclick="this.innerHTML = 'clicou'" onmouseover="this.innerHTML = 'passou o mouse'" onmouseout="this.innerHTML = 'tirou o mouse'">Olá fela</h2>
+   <p class="parag">kjfkjdf</p>
+   <button onclick="this.innerHTML = 'clicou'">Clique</button><br><br> 
+   <input type="text" class="digit" name="digit" placeholder="escreva algo e dê ENTER" onkeyup="digitou(event)">
+   <p class="paragraf">Resultado = </p>
+
+   <h1 class="titulo">Seja bem vindo</h1>
+
+   <button onclick="azul()">Azul</button>
+   <button onclick="vermelho()">Vermelho</button>
+   <button onclick="verde()">verde</button>
+
+   <div class="fone">
+        <button class="btn-fone" onclick="mostrafone(this)">mostrar fone</button>
+        <p class="telefone">99999999</p>
+   </div>
+
+   <div class="carro-array">
+       <input class="prim-array" placeholder="digite a marca">
+       <input class="seg-array" placeholder="digite o modelo">
+       <input class="terc-array" placeholder="digite o peso">
+        <p class="result">resultado...</p>
+        <input type="button" class="btn-mostra" value="mostrar" onclick="mostr_array()">
+    </div>
+
+    <div class="diasem">
+        <input type="number" class="numdia" name="numdia" placeholder="digite o nº corresp ao dia da sem" min="0" max="6">
+        <input type="button" class="btn-dia" value="Verificar" onclick="diaSemana()">
+        <p class="resposta"></p>
+    </div>
+
+    <div class="hora">
+        <button class="comecacont" onclick="comecar()">Começar</button>
+        <button class="pararcont" onclick="parar()">Parar</button>
+        <p class="horaatual">
+            jgfhjghjghjghjgh
+        </p>
+    </div>
+
+    <div class="contando">
+        <h3>Contando...</h3>
+        <input class="numeroInic" type="number" name="numeroInic" placeholder="digite um numero inicial" required><br><br>
+        <label>escolha um numero pra pular
+            <select class="ateqto" name="ateqto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </label><br><br>
+        <input class="numFinal" type="number" name="numFinal" placeholder="digite um número final"><br><br>
+        <button onclick="Contando()">Conferir</button><br><br>
+        <div class="resultContador">
+            Resultado...
+        </div>
+    </div><br><br>
+
+    <div class="CalculandoNumeros">
+        <h3>Calculando</h3>
+        <input class="numeroCalcular1" type="number" name="numeroCalcular2" placeholder="digite um número">
+        <select class="operacaomat" name="operacaomat">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">X</option>
+            <option value="4">/</option>
+        </select>
+        <input class="numeroCalcular2" type="number" name="numeroCalcular2" placeholder="Digite outro número">
+        <button onclick="calculandoNumeros()">Calcular</button><br><br>
+        
+        <div class="resultCalculo">
+            resultado: 
+        </div>
+    </div>
+
+    <div class="operacoesMat">
+        <h2>Operações</h2>
+        <input class="qtdnumeros" type="number" name="qtdnumeros" placeholder="Quantos Nº quer enviar?" autofocus>
+        <button onclick="qtdNumeros()">Ok</button><br>
+        <div class="inputenviando">
+           
+        </div>
+        
+        
+        <button onclick="enviandoNumeros()">Enviar</button>
+        <div class="resultadonumeros">
+
+        </div>
+    </div>
+
+    <div class="conversor">
+        <h2>conversor de moedas</h2>
+         quantas vezes quer converter?<br>
+            <input class="qtde" type="number" name="qtde" placeholder="quantas vezes?"><button onclick="qtde()">ok</button>
+        
+        <div class="convertendo">
+            ...
+        </div>
+    </div>
+
+    <div class="analisValores">
+        <h3>analisando valores</h3>
+        <input class="n1" type="number" name="n1" placeholder="digite o 1º número"><br>
+        <input class="n2" type="number" name="n2" placeholder="digite o 2º número"><br>
+        <input class="n3" type="number" name="n3" placeholder="digite o 3º número"><br>
+        <input class="n4" type="number" name="n4" placeholder="digite o 4º número"><br>
+        <input class="n5" type="number" name="n5" placeholder="digite o 5º número"><br><br>
+        <button onclick="verificNumAnalis()">Verificar</button><br>
+        <div class="resultAnalisValores">
+            a soma dos valores é = <br>
+            a média dos valores é = <br>
+            valores digitados divisiveis por 5 são:<br>
+            números pares digitados foram
+
+        </div>
+    </div>
+
+    <script src="js/style.js"></script>
+</body>
+</html>

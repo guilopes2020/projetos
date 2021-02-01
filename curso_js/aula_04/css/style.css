@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: auto;
+}
+
+body{
+    background-color: rgb(51, 38, 231);
+    color: white;
+    font: 15pt arial;
+}
+
+.area{
+    background-color: teal;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input#pais_orig, input#pais_mora{
+    width: 250px;
+    height: 30px;
+}
+
+.estrang{
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    
+}
+
+.multas{
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+    
+}
+
+.veloc{
+    width: 500px;
+    margin: 0 auto;
+    background-color: khaki;
+    color: red;
+    text-align: center;
+}
+
+.veloc h1{
+    color: chartreuse;
+    background-color: chocolate;
+}
+
+.voto{
+    width: 500px;
+    margin: 0 auto;
+    background-color: seagreen;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.containerr{
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.vota, .dia_seman{
+    width: 290px;
+    margin: 0 auto;
+    
+    
+}
+
+input.button{
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgba(29, 131, 109, 0.5);
+}
+
+.text-vota{
+    width: 500px;
+    margin: 20px auto;
+    color: rgb(245, 11, 11);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}

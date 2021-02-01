@@ -1,0 +1,211 @@
+body{
+	
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-Serif;
+	background: url(../img/fundo.png) repeat-x;
+
+	
+
+}
+
+#container{
+	width: 1080px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#logo h1{
+	float: left;
+}
+
+#logo a{
+	width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+	
+
+}
+
+
+
+header{
+	padding: 15px;
+	height: 55px;
+	
+}
+
+a:link, a:visited, a:active{
+	color: #af670a;
+	text-decoration: none;
+	
+
+}
+
+a:hover{
+	color: #227115;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 10px; 
+	float: right;
+	
+
+}
+
+nav ul li{
+	float: left;
+	margin-top: 0px;
+}
+
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid #535858;
+	
+}
+
+#conteudo{
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+section#galeria a{
+	display: block;
+	background: url(..img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 15px;
+	margin-left: 30px;
+
+
+}
+
+h3{
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#conheca-museu{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+	
+}
+
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border:none;
+	font-size: 1em;
+}
+
+input.campo{
+	border: 1px solid #ada484;
+}
+
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px
+	font-size1.2em;
+
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	display: none;
+}
+
+legend.date{
+	text-align: center;
+	color: #000fdd;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+iframe{
+	border: 3px solid gray;
+	margin-top: 5px;
+}
+
+article#video{
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa{
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicoes{
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#historia{
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+
+}
+
+#rodape{
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	background: url(../img/fundo.png) repeat-x;
+	
+	
+
+	
+}
+
+footer ul li{
+	display: inline;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.fundo-footer{
+	
+}

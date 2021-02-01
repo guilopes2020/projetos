@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Exercicios PHP</title>
+</head>
+<body>
+    <div class="envia">
+        <form method="GET" action="recebe.php">
+            <input type="number" name="env" class="env" placeholder="digite um número">
+            <input type="submit" value="Calcular Raiz">
+        </form>
+    </div>
+    
+    <div class="calc-idade">
+        <form method="GET" action="recebe.php">
+            <input type="text" name="nome" class="nome" placeholder="Digite seu nome" required>
+            <input type="number" name="ano_nasc" class="ano_nasc" placeholder="digite o ano de seu nascimento" required>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" class="masc" value="Homem" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" class="fem" value="Mulher">
+                <label for="fem">Feminino</label>
+            </fieldset>
+            <input type="submit" value="Enviar" class="btn-envia">
+        </form>
+    </div>
+
+    <div class="cores-text">
+        <h3>Escolhendo cores</h3>
+        <form method="GET" action="recebe.php" class="formcores">
+            <input type="text" name="t" class="itxt" placeholder="Digite aqui o texto"><br>
+            <label for="itam">Tamanho</label>
+            <select name="tam" class="tam">
+                <option value="8pt">8</option>
+                <option value="10pt">10</option>
+                <option value="14pt">14</option>
+                <option value="20pt">20</option>
+                <option value="40pt">40</option>
+            </select><br>
+            <label for="icor">Cor</label>
+            <input type="color" name="cor" class="cor"><br>
+            <input type="submit" value="Gerar">
+        </form>
+    </div>
+
+    <div class="votacao">
+        <h2>Vota ou não?</h2>
+        <form class="form-vot" method="GET" action="recebe.php">
+            <input type="text" name="nome" class="nome" placeholder="qual seu nome?" required>
+            <input type="number" name="ano_nasc" class="ano_nasc" placeholder="seu ano de nascimento" required>
+            <input type="submit" value="Verificar" class="btn-ver">
+        </form>
+    </div>
+
+    <div class="media_aluno">
+        <h2>Aprovado ou Reprovado?</h2>
+        <form class="form-aprov" method="GET" action="recebe.php">
+            <input type="text" name="nombre" class="nombre" placeholder="digite o nome do aluno" required>
+            <input type="number" name="n1" class="n1" placeholder="digite a 1ª nota do aluno" required>
+            <input type="number" name="n2" class="n2" placeholder="digite a 2ª nota do aluno" required>
+            <input type="submit" class="btn-aprov" value="Verificar">
+        </form>
+    </div>
+
+    <div class="escolha">
+        <h2>Escolha a operação</h2>
+        <form class="escolha_op" method="GET" action="recebe.php">
+            <input type="number" class="dig-num" name="dig-num" placeholder="digite um número">
+            <select class="operacao" name="operacao">
+                <option value="1">Somar</option>
+                <option value="2">subtrair</option>
+                <option value="3">dividir</option>
+                <option value="4">Multiplicar</option>
+            </select>
+            <input type="number" class="dig-num2" name="dig-num2" placeholder="digite outro número">
+           
+            <fieldset><legend>Operação</legend>
+                <input type="radio" name="operacao2" class="operacao2" value="1" checked>
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="operacao2" class="operacao2" value="2">
+                <label for="cubo">Cubo</label>
+                <input type="radio" name="operacao2" class="operacao2" value="3">
+                <label for="raiz">Raiz Quadrada</label>
+            </fieldset>
+            <input type="submit" class="btn-envia-op" value="Calcular">
+
+        </form>
+    </div>
+
+    <div class="dia-sem">
+        <h2>Ir pra aula ou não?</h2>
+        <!--<p>digite o dia da semana abaixo</p>-->
+        <form class="form-diasem" method="GET" action="recebe.php">
+            <input type="number" class="diasem" name="diasem" min="2" max="8" placeholder="dia da semana" required>
+            <input type="submit" value="Verificar" class="btn-diasem">
+        </form>    
+    </div>
+
+    <div class="estados">
+        <h2>Escolha seu estado abaixo</h2>
+        <form class="for-estados" method="GET" action="recebe.php">
+            <select class="escolha-estado" name="escolha-estado">
+                <option value="1">Acre</option>
+                <option value="2">Amapá</option>
+                <option value="3">Alagoas</option>
+                <option value="4">Amazonas</option>
+                <option value="5">Bahia</option>
+                <option value="6">Ceará</option>
+                <option value="7">Distrito Federal</option>
+                <option value="8">Espirito Santo</option>
+                <option value="9">Goias</option>
+                <option value="10">Maranhão</option>
+                <option value="11">Mato Grosso</option>
+                <option value="12">Mato Grosso do sul</option>
+                <option value="13" selected>Minas Gerais</option>
+                <option value="14">Pará</option>
+                <option value="15">Paraíba</option>
+                <option value="16">Paraná</option>
+                <option value="17">Pernambuco</option>
+                <option value="18">Piauí</option>
+                <option value="19">Rio de Janeiro</option>
+                <option value="20">Rio Grande do norte</option>
+                <option value="21">Rio Grande do sul</option>
+                <option value="22">Rondonia</option>
+                <option value="23">Roraima</option>
+                <option value="24">Santa Catarina</option>
+                <option value="25">São Paulo</option>
+                <option value="26">Sergipe</option>
+                <option value="27">Tocantins</option>
+            </select>
+            <input type="submit" value="Verificar" class="btn-estado">
+        </form>
+    </div>
+</body>
+</html>

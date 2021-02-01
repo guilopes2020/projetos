@@ -1,0 +1,346 @@
+body{
+    font: normal 15pt arial;
+    background-color: rgb(68, 68, 214);
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+.foto_saud{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.87);
+    border-radius: 125px;
+}
+
+footer{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    width: 500px;
+}
+
+.mensa, .fota{
+    text-align: center;
+    
+}
+
+#msg{
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+    background-color: rgba(247, 231, 168, 0.678);
+}
+
+#saudac{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.479);
+    border-radius: 15px;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    padding: 10px;
+    background-color: rgba(208, 235, 236, 0.603);
+    
+}
+
+#ano_nasc{
+    width: 200px;
+}
+
+.verfidade{
+    width: 400px;
+    margin: 10px auto;
+    box-shadow: 15px 15px 15px rgba(8, 8, 8, 0.657);
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: rgba(219, 157, 157, 0.65) solid 3px;
+}
+
+.verific{
+    color: rgba(117, 5, 5, 0.63);
+    font-size: 25px;
+    font-weight: bold;
+    width: 350px;
+    margin: 10px auto;
+    padding: 5px;
+    text-shadow: 20px 5px 10px rgba(0, 0, 0, 0.719);
+    
+}
+
+.anonasci, .sex{
+    color: rgba(2, 19, 24, 0.65);
+    font-size: 20px;
+    font-weight: 1000;
+    text-shadow: 20px 5px 10px rgba(0, 0, 0, 0.568);
+    padding: 5px;
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 35px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.63);
+}
+
+#txtano{
+    width: 300px;
+    height: 25px;
+    margin: 5px auto;
+    border-radius: 15px;
+    background-color: rgba(222, 184, 135, 0.5);
+
+}
+
+.verfidade input[type=number], .verfidade input[type=number]:focus{
+    outline: 0;
+    border: 3px solid #ccc;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.685);
+}
+
+.verfidade input::placeholder{
+    text-align: center;
+    color: rgba(53, 48, 48, 0.637);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.radio_sex{
+    width: 300px;
+    margin: 15px auto;
+    background-color: rgba(128, 255, 0, 0.376);
+    padding: 10px;
+    box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.911);
+    border-radius: 20px;
+    
+}
+
+.masc{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.609);
+    font-weight: bold;
+    text-shadow: 10px 5px 15px rgba(0, 0, 0, 0.829);   
+}
+
+.femi{
+    font-size: 20px;
+    color: rgba(230, 12, 238, 0.637);
+    font-weight: bold;
+    text-shadow: 10px 5px 15px rgba(0, 0, 0, 0.829);
+}
+
+.buton input:hover{
+    background-color: rgb(247, 242, 242);
+    color: rgba(235, 21, 21, 0.746);
+    font-weight: 1000;
+}
+
+.buton input[type=button], .buton input[type=button]:focus{
+    outline: 0;
+}
+
+.buton input{
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(104, 42, 32, 0.781);
+    cursor: pointer;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.76);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.664);
+    border-radius: 15px;
+}
+
+.form{
+    border: 8px solid red;
+    text-align: left;
+}
+
+.contador{
+    border: 1px solid red;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px black;
+}
+
+.vamo_cont{
+    width: 250px;
+    margin: 10px auto;
+    color: rgba(0, 102, 255, 0.507);
+    font-size: 25px;
+    font-weight: 800;
+    border: 1px solid red;
+}
+
+.form_cont{
+    border: 5px solid red;
+}
+
+.escolhanum{
+    width: 80px;
+    
+    font-size: 20px;
+    color: rgba(0, 17, 255, 0.637);
+    border: 1px solid red;
+    font-weight: 700;
+}
+
+.selec{
+    border: 1px solid red;
+    width: 40px;
+    margin-top: 5px;
+    
+}
+
+.contar{
+    width: 450px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: rgba(247, 242, 242, 0.603);
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.671);
+}
+
+.contar_dentro{
+    width: 350px;
+    margin: 10px auto;
+    background-color: rgba(61, 157, 160, 0.637);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.739);
+    
+}
+
+h3.conta{
+    width: 200px;
+    margin: 10px auto;
+    color: rgba(28, 56, 10, 0.774);
+    font-size: 25px;
+    font-weight: 850;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.712);
+
+}
+
+#aray{
+    width: 400px;
+    margin: 10px auto;
+    text-align: initial;
+    text-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    background-color: rgba(59, 112, 5, 0.863);
+    color: rgb(236, 226, 226);
+    font-size: 20px;
+    font-weight: 850;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.787);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#fun{
+  width: 400px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(53, 130, 197, 0.698);
+  color: rgba(15, 10, 20, 0.815);  
+  font-size: 20px;
+  font-weight: 850;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.767);
+  box-sizing: border-box;
+  text-shadow: 10px 10px 10px black;
+}
+
+#fat{
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: rgb(185, 20, 20);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 850;
+    box-shadow: 10px 15px 10px black;
+    text-shadow: 10px 10px 10px black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contarr{
+    width: 450px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: rgba(68, 224, 230, 0.692);
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 10px 15px 10px black;
+}
+
+.contadorr{
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: rgba(171, 221, 122, 0.623);
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px black;
+}
+
+.anali{
+    width: 400px;
+    margin: 10px auto;
+    color: rgba(3, 3, 31, 0.712);
+    text-shadow: 10px 15px 10px black;
+    text-align: center;
+}
+
+#resultcont{
+    width: 300px;
+    margin: 10px auto;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 850;
+    text-align: center;
+}
+
+#flistaa{
+    width: 175px;
+}
+
+#resss{
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgb(128, 112, 112);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 850;
+    color: rgb(248, 242, 242);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.739);
+    text-shadow: 10px 10px 10px black;
+}
+    
+
+
+
+

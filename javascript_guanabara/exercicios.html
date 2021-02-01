@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body onload="carregar()">
+    <header>
+        <h1 class="titulo-site">Exercicios em JavaScript</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="msg"></p>
+            <p class="msg1"></p>
+        </div>
+            
+        <div class="foto">
+            <img id="imagem" src="images/fotomanha.png" alt="foto da manhã">
+        </div>
+
+        <div class="verif-idade">
+            <h2>Verificador de idade</h2>
+            <p>
+                <input type="number" name="ano-nasc" class="ano-nasc" placeholder="seu ano de nascimento">
+            </p>
+            <p>sexo:
+                <input type="radio" name="radsex" class="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" class="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" class="btn-verif" onclick="verif_idade()">
+            </p>
+            
+            <div class="resultado">
+                Preencha os dados acima para ver o resultado...
+            </div>
+            
+        </div>
+
+        <div class="enquanto">
+            <h2>Contando...</h2>
+            <input type="number" name="one" class="one" placeholder="digite aqui um número inicial">
+            <input type="number" name="two" class="two" placeholder="digite aqui um número final">
+            <input type="number" name="three" class="three" placeholder="digite aqui um número de incremento">
+            <input type="button" value="Enviar" class="btn-envio" onclick="calc_enqto()">
+            <div class="res-enqto">
+                Resultado...
+            </div>
+        </div>
+
+        <div class="tabuada">
+            <h3>Tabuada</h3>
+            <input type="number" name="tab" class="tab" placeholder="digite um número">
+            <input type="button" name="btn-tab" class="btn-tab" value="Gerar tabuada" onclick="tabuada()">
+            <div class="result-tab">
+                <select class="sel-tab" name="cel-tab" size="10">
+                    <option style="font-size: 15px;"> digite um número acima</option>
+                </select>    
+            </div>
+        </div>
+
+        <div class="arrays">
+            <h3>Inserindo Arrays</h3>
+            <input class="v1" name="v1" placeholder="insira um valor" required>
+            <input class="v2" name="v2" placeholder="insira um valor" required>
+            <input class="v3" name="v3" placeholder="insira um valor" required>
+            <input class="v4" name="v4" placeholder="insira um valor" required>
+            <input class="v5" name="v5" placeholder="insira um valor" required>
+            <input type="button" value="Enviar" class="btn-env-arrays" name="btn-env-arrays" onclick="recebe_arrays()">
+            <p class="res-arrays"></p>
+        </div>
+
+        <div class="anali_num">
+            <h2>Analisador de Números</h2>
+            <input type="number" class="fnum" name="fnum" placeholder="digite um número entre 1 e 100">
+            <input type="button" class="btn-adic" name="btn-adic" value="Adicionar" onclick="adicionar()">
+            <select class="flista" name="flista" size="6"></select>
+            <input type="button" class="btn-calc" value="Finalizar">
+        </div>
+
+        <div class="numbparimp">
+            <input type="number" class="numbpar_imp" name="numbpar_imp" placeholder="digite um número">
+            <input type="button" value="Verificar" onclick="parImpar()">
+        </div>
+        <div class="resull">
+
+            <div>
+                <input class="numero1" type="number" name="numero1" placeholder="digite um numero">
+                <input class="numero2" type="number" name="numero2" placeholder="digite um numero"> 
+                <input class="numero3" type="number" name="numero3" placeholder="digite um numero">  
+                
+                <button onclick="somandoo()">Somar</button>
+            </div>
+        </div>
+
+        <div class="resultade">
+
+        </div><br><br>
+
+        <div class="mediaAluno">
+            <h2>Situação do aluno</h2>
+            <input class="nomeAluno" type="text" name="nomeAluno" placeholder="digite seu nome"><br>
+            <input class="notaAluno" type="number" name="notaAluno" placeholder="digite sua nota"><button onclick="notas()">Enviar</button><br>
+            <button onclick="mediaAluno()">Verificar</button>
+            <div class="resultadoMedia">
+
+            </div>
+        </div><br><br>
+
+        <div class="tabuada2">
+            <input class="numerotabuada" type="number" name="numerotabuada" placeholder="digite um número">
+            <button onclick="tabuada2()">Verificar</button>
+            <select class="slecttab" name="selecttab" size="10">
+                <option>digite um numero acima</option>
+            </select>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="rodape">todos os direitos reservados - GuiLopes -  2020</p>
+    </footer>
+    <script src="js/style2.js"></script>
+</body>
+</html>

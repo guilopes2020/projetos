@@ -1,0 +1,726 @@
+.envia{
+    width: 50vw;
+    margin: 10px auto;
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+}
+
+.recebe{
+    width: 50vw;
+    margin: 10px auto;
+    background-color: rgb(68, 157, 240);
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+}
+
+.recebe a{
+    margin: 10px auto;
+    width: 120px;
+    display: flex;
+}
+
+.recebe input[type="button"] {
+    margin: 5px auto;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calc-idade{
+    width: 450px;
+    margin: 20px auto;
+    background-color: rgba(203, 243, 184, 0.753);
+    box-shadow: 5px 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.calc-idade input[type="text"], .calc-idade input[type="number"] {
+    width: 350px;
+    height: 30px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    border: 0;
+}
+
+.calc-idade input[type="text"], .calc-idade input[type="number"]::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+
+.calc-idade input[type="text"], .calc-idade input[type="number"]:enabled {
+    outline: none;
+    border: 0;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(71, 71, 87);
+}
+
+.calc-idade input[type="submit"] {
+    background-color: green;
+    width: 250px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calc-idade input[type="submit"]:enabled{
+    border: none;
+    outline: none;
+}
+
+.recebe-ano {
+    width: 650px;
+    margin: 10px auto;
+    color: rgb(250, 248, 248);
+    background-color: rgb(52, 102, 104);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cores-text{
+    width: 450px;
+    margin: 15px auto;
+    background-color: rgba(128, 255, 0, 0.527);
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    
+}
+
+.formcores{
+    width: 400px;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.cores-text h3{
+    font-size: 30px;
+    color: rgb(42, 85, 76);
+    font-weight: 800;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
+    margin: 2px auto;
+    text-align: center;
+}
+
+.cores-text input[type="text"]{
+    width: 350px;
+    height: 20px;
+    margin: 5px auto;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.cores-text input[type="text"]:enabled{
+    border: none;
+    outline: none;
+}
+
+.cores-text label[for="itam"]{
+    margin: 10px auto;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+.cores-text label[for="icor"]{
+    margin: 10px auto;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+}
+
+
+.cores-text select{
+    
+    width: 100px;
+    height: 20px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    
+}
+
+.cores-text input[type="color"]{
+    width: 90px;
+    height: 25px;
+    margin: 10px auto;
+    box-shadow: 3px 3px 5px black;
+    
+}
+
+.cores-text input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    transition: 1.6s;
+}
+
+.cores-text input[type="submit"]:hover{
+    background-color: rgb(71, 168, 248);
+    color: black;
+    transform: scale(1.2);
+}
+
+.cores-text input[type="submit"]:enabled{
+    border: 0;
+    outline: none;
+}
+
+.recebe-textcor{
+    width: 550px;
+    margin: 5px auto;
+    background-color: rgba(247, 97, 86, 0.685);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.receb-text{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: rgb(51, 164, 240);
+    font-weight: 800;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.votacao{
+    width: 400px;
+    margin: 10px auto;
+    background-color: rgba(222, 184, 135, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.votacao form{
+    width: 350px;
+    margin: 5px auto;
+}
+
+.votacao input[type="text"], .votacao input[type="number"] {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    border: 0;
+}
+
+.votacao input[type="text"], .votacao input[type="number"]::placeholder{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    color: rgba(112, 110, 103, 0.555);
+}
+
+.votacao input[type="submit"] {
+    width: 150px;
+    height: 34px;
+    margin: 5px auto;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+    transition: 1.8s;
+}
+
+.votacao input[type="submit"]:hover{
+    background-color: crimson;
+    color: black;
+    transform: scale(1.2);
+}
+
+.votacao h2{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px black;
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.receb-vot{
+    width: 550px;
+    margin: 20px auto;
+    background-color: rgba(222, 184, 135, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.receb-vot h2{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px black;
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.receb-vot p{
+    color: rgb(53, 53, 58);
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.media_aluno{
+    width: 400px;
+    margin: 15px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    background-color: rgba(240, 140, 69, 0.705);
+}
+
+.media_aluno h2{
+    width: 350px;
+    margin: 10px auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(60, 124, 241);
+}
+
+.media_aluno form{
+    width: 350px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.media_aluno input[type="text"], .media_aluno input[type="number"] {
+    width: 320px;
+    height: 30px;
+    margin: 10px auto;
+    border: 0;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/*.media_aluno input[type="text"], .media_aluno input[type="number"]::placeholder{
+    padding: 10px;
+    margin-left: 15px;
+    color: rgba(23, 75, 77, 0.726);
+    font-size: 20px;
+    font-weight: 800;
+}*/
+
+div form input.nombre, div form input.n1, div form input.n2{
+    padding: 10px;
+    margin-left: 18px;
+    color: rgba(23, 75, 77, 0.493);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+div form input.nombre, div form input.n1, div form input.n2:enabled{
+    
+    outline: none;
+}
+
+.media_aluno input[type="submit"] {
+    width: 200px;
+    height: 45px;
+    margin: 10px auto;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    display: block;
+}
+
+.receb_aprov{
+    width: 550px;
+    margin: 20px auto;
+    background-color: rgba(231, 134, 6, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.receb_aprov h2{
+    width: 350px;
+    margin: 10px auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(60, 124, 241);
+}
+
+.receb_aprov p{
+    color: rgb(53, 53, 58);
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.escolha{
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgba(241, 241, 103, 0.685);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.escolha h2{
+    width: 350px;
+    margin: 10px auto;
+    color: rgba(46, 46, 146, 0.822);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+.dig-num, .dig-num2{
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    display: inline;
+    margin-left: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    
+}
+
+.operacao{
+    margin-left: 10px;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+    border-radius: 5px;
+    cursor: pointer;
+    color: brown;
+}
+
+.receb_operac_matem{
+    width: 550px;
+    margin: 20px auto;
+    background-color: rgba(85, 130, 228, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.receb_operac_matem h2{
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: rgba(33, 53, 13, 0.671);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.receb_operac_matem p{
+    width: 450px;
+    padding: 15px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(247, 8, 8);
+}
+
+.dia-sem{
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgba(247, 90, 63, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.dia-sem h2{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(78, 78, 247);
+}
+
+/*.dia-sem p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}*/
+
+.form-diasem{
+    width: 350px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.diasem{
+    width: 150px;
+    height: 25px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.diasem::placeholder{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.diasem:enabled{
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: 600;
+    color: blue;
+}
+
+.btn-diasem{
+    display: block;
+    width: 150px;
+    height: 35px;
+    margin: 8px auto;
+    background-color: green;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.estudouno{
+    width: 550px;
+    margin: 20px auto;
+    background-color: rgba(85, 207, 228, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.estudouno h2{
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: rgba(33, 53, 13, 0.671);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center; 
+}
+
+.estudouno p{
+    width: 450px;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(247, 8, 8);
+}
+
+.estados{
+    width: 400px;
+    margin: 20px auto;
+    background-color: burlywood;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.estados h2{
+    width: 350px;
+    margin: 15px auto;
+    color: blue;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.for-estados{
+    width: 380px;
+}
+
+.escolha-estado{
+    width: 250px;
+    height: 25px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+.btn-estado{
+    width: 150px;
+    margin: 15px auto;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.receb-reg{
+    width: 550px;
+    margin: 20px auto;
+    background-color: rgba(85, 207, 228, 0.568);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;  
+}
+
+.receb-reg h2{
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.receb-reg p{
+    color: rgb(54, 55, 56);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.caixas_cont{
+    width: 300px;
+    margin: 20px auto;
+    background-color: darkblue;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+}
+
+.caixas_cont form{
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.caixas_cont form input[type="number"]{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+.caixas_cont form input[type="submit"]{
+    width: 120px;
+    height: 35px;
+    margin: 15px auto;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.caixas_cont form input[type="number"]::placeholder{
+    text-align: center;
+    font-size: 16px;
+}
+
+.caixas_cont form input[type="number"]:enabled{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,135 @@
+.area{
+    margin: 100px auto;
+    font: normal 20pt arial;
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 30px;
+    
+}
+
+.somando{
+    width: 400px;
+    box-sizing: border-box;
+    height: 250px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    
+}
+
+.somando h1{
+    margin: 5px auto;
+    padding: 10px;
+    color: white;
+    width: 200px;
+}
+
+.somando input{
+    width: 50px;
+    height: 20px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.somando input[type="button"] {
+    background-color: green;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.res{
+    color: yellow;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.calculando-veloc{
+    width: 500px;
+    height: 250px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.calc-vel{
+    width: 450px;
+    height: auto;
+    margin: 5px auto;
+}
+
+.calc-vel input{
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px black;
+}
+
+.calc-vel input:active{
+    
+}
+
+.calc-vel input[type="button"]{
+    width: 150px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: green;
+    color: rgb(247, 241, 241);
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+
+.calc-vel input::placeholder{
+    padding: 10px;
+    color: grey;
+    background-color: rgb(218, 212, 160);
+    text-transform: uppercase;
+}
+
+.calc-vel h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.808);
+}
+
+.res-vel{
+    width: 350px;
+    height: 100px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+p.result{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(11, 35, 248);
+    text-shadow: 5px 5px 5px rgba(14, 13, 13, 0.507);
+}

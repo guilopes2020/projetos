@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<progress value="70" max="100"></progress>
+	<meter value="29" max="100"
+	low="30" high="70"></meter> 
+	<table>
+  <thead>
+  <tr>
+    <th>Nome</th>
+    <th>Sobrenome</th>
+    <th>Idade</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>João</td>
+    <td>Silva</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Maria</td>
+    <td>Souza</td>
+    <td>23</td>
+  </tr>
+  </tbody>
+</table>
+<form autocomplete="on">
+  <input type="email" placeholder="coloque seu e-mail" name="email">
+</form><br>
+<form>
+  <input type="radio" name="sexo" checked="checked" /> Homem
+  <input type="radio" name="sexo" /> Mulher
+</form><br>
+<div align="center">
+<h2>Escolha quantas cores você desejar.</h2>
+<form>
+  <input type="checkbox" name="cor1" /> Azul
+  <input type="checkbox" name="cor2" /> Vermelho
+  <input type="checkbox" name="cor3" /> Amarelo
+</form><br>
+</div>
+<div align="left">
+	<h6>coloque sua data de nascimento.</h6>
+	<input type="date" />
+</div>
+<input type="range" min="0" max="100" /><br><br>
+<input type="color" /><br>
+<input type="file" />
+<input type="button" value="enviar" /><br>
+<select>
+  <option value="html">HTML 5</option>
+  <option value="css">CSS 3</option>
+  <option value="js">JavaScript</option>
+</select><br>
+<input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist><br>
+  <fieldset autocomplete="on">
+  <legend>Cadastro</legend>
+  Nome: <input type="text"><br>
+  Email: <input type="text"><br>
+</fieldset><br>
+<form autocomplete="on">
+  <label for="email">Email</label>
+  <input type="text" id="email">
+</form><br>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+0 <input type="range" id="a" value="50"> 100
++
+<input type="number" id="b" value="50">
+=
+<output name="x" for="a b"></output>
+</form><br>
+<img src="imagens/wilso4.jpg" alt="wilso4" width="400px" height="200px"><br>
+<div align="right">
+	<figure>
+		<img src="imagens/wilso4.jpg" alt="wilso4" width="300" height="250">
+		<figcaption>projeto roça - cozinha</figcaption>
+	</figure>
+</div><br>
+<div align="center">
+	<audio controls loop="audio">
+  <source src="me_ and_ you.ogg" type="audio/ogg">
+  <source src="me_ and_ you.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<div align="right">
+	<video width="320px" height="240px" loop="video" autoplay="video" poster="wilso4.jpg" muted>
+		<source src="28.mp4" type="video/mp4">
+		<source src="28.ogg" type="video/ogg">	
+		
+	</video>
+</div>
+	
+</div>
+</body>
+</html>

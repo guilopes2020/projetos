@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>hora do dia</title>
+</head>
+<body onload="carregar()">
+    <header>
+        
+        <h2 id="tit_pag">Hora do dia</h2>
+    </header>
+
+    <section>
+        <div class="mensa">
+            <p id="msg">aqui vai aparecer a mensagem...</p>
+        </div>
+            
+        <div class="fota" id="foto">
+            <p id="saudac">Bom dia!</p>
+            <img class="foto_saud" id="imagem" src="" alt="foto da manhã">
+        </div>
+
+        <div class="verfidade">
+            <h3 class="verific">Verificador de idade</h3>
+            <p class="anonasci">Qual o ano de seu nascimento?</p>
+            <input type="number" min="0" max="2020" name="txtano" placeholder="ano nascimento" id="txtano">
+            <p class="sex">Qual o seu sexo?</p>
+            <div class="radio_sex">
+            <input type="radio" id="mas" name="radsex" checked>
+            <label class="masc" for="mas">Masculino</label>
+            <input type="radio" id="fem" name="radsex">
+            <label class="femi" for="fem">Feminino</label>
+            <p class="buton"><input type="button" value="conferir" onclick="idadesexo()"></p>
+            </div>
+           
+        </div>
+
+        <div class="foto">
+            <p id="resul_idade_sexo"></p>
+            <img src="" id="fotoidade">
+        </div>
+
+    </section>
+
+    <!--<div>
+        <p id="enqto"></p>
+    </div>-->
+
+    <div class="contar">
+        <h3 class="conta">Vamos contar</h3>
+        <div class="contar_dentro">
+            <p>inicio</p>
+            <input type="number" name="ini" id="txti">
+            <p>Fim</p>
+            <input type="number" name="fim" id="txtf">
+            <p>passo</p>
+            <input type="number" name="passo" id="txtp">
+            <input type="button" value="verificar" name="botao" id="botao" onclick="verifContador()">
+            <p id="resuContar"></p>
+        </div>
+    </div>
+
+    <div class="contar">
+        <div class="contar_dentro">
+            <h3>Tabuada</h3>
+            <p>digite um número:</p>
+            <input type="number" name="txt1" id="txt1">
+            <input type="button" value="gerar tabuada" onclick="tabuada()">
+        </div>
+        <div class="contar_dentro">
+            <select name="tabuada" id="seltab" size="10">
+                <option>digite um número acima</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div id="aray">
+
+    </div>
+
+    <div id="fat">
+        <h4>insira um número para o fatorial</h4>
+        <input type="number" id="numfat" name="numfat">
+        <input type="button" value="enviar" onclick="fatorial()">
+        <p id="resfat">O fatorial é:</p>
+    </div>
+
+    <div id="fun">
+        sfgdfgdfgdf
+    </div>
+
+    <div class="contarr">
+        <h3 class="anali">analisador de números</h3>
+        <div class="contadorr">
+            <p>número entre (1 e 100)</p> 
+            <input type="number" name="nument" id="nument">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <select id="flistaa" name="flistaa" size="6"></select>
+            <input type="button" value="Finalizar" onclick="finalizarr()">
+        </div>
+        <p id="resss"></p>
+        
+    </div>
+
+    <footer>
+        <p id="footer">&copy; todos os diritos reservados - 2020</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/script3.js"></script>
+    <script src="js/script4.js"></script>
+    
+</body>
+</html>

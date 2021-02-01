@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calc{
+    padding: 10px;
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+}

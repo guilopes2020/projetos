@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "open sans";
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+    background: #55555a;
+	padding: 30px 0;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+input{
+	border: 0;
+}
+
+/*boot*/
+.center{
+	max-width: 1280px;
+	padding: 0 7%;
+	margin: 0 auto;
+}
+
+.center-1{
+	max-width: 1280px;
+	padding: 0 5%;
+	margin: 0 auto;
+	
+}
+.w50{
+	width: 50%;
+	padding: 0 2%;
+}
+
+.w50-1{
+	width: 50%;
+	padding: 0 2%;
+	
+}
+
+.left{
+	float: left;
+}
+
+.left-1{
+	float: left;
+	
+}
+
+.right{
+	float: right;
+}
+
+.right-1{
+	float: right;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.w33{
+
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+/*estilização do site*/
+img{
+	width: 100%;
+	max-width: 400px;
+}
+
+.foto{
+	
+	height: 300px;
+	
+	
+}
+
+.fotinha{
+	
+}
+
+header{
+	background: #55555a;
+	padding: 20px 0;
+}
+
+.logo{
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+
+.mobile{
+	display: none;
+}
+
+.desktop ul{
+	list-style-type: none;
+	top: 6px;
+	position: relative;
+}
+
+.desktop li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.desktop a{
+	color: white;
+	text-decoration: none;
+	padding: 0 30px;
+}
+
+.desktop a:hover{
+	color: #888;
+	transition: 0.7s;
+}
+
+.descricao-autor{
+	padding: 40px 0;
+}
+
+.nome-autor{
+	padding: 10px;
+}
+
+.descricao-autor h2{
+	font-size: 28px;
+	font-weight: 400;
+	color: #444;
+	margin-bottom: 10px;
+}
+
+.descricao-autor p{
+	font-size: 16px;
+	color: #444;
+	margin-top: 10px;
+}
+
+.banner-principal{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/bg-form.jpg');
+	background-size: cover;
+	position: relative;
+
+}
+
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 1;
+}
+
+.banner-principal form{
+	width: 93%;
+	max-width: 500px;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.banner-principal form h2{
+	color: #777;
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+}
+
+.banner-principal form input[type=email]{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	background: white;
+	color: #333;
+	font-size: 22px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.banner-principal form input[type=submit]{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	background: #00c59e;
+	color: white;
+	cursor: pointer;
+	font-size: 22px;
+	border: 0;
+}
+
+section.especialidades{
+	background: #e2e2e2;
+	padding: 40px 0;
+}
+
+.cont{
+	margin: 0 auto;
+	
+}
+
+.autor{
+	padding: 30px;
+	
+	margin: 0 auto;
+	
+}
+
+.autor h2{
+	font-size: 25px;
+	font-weight: 400;
+	color: #444;
+	
+	margin: 0 auto;
+}
+
+section.especialidades h2.title{
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.box-especialidade h3{
+	text-align: center;
+	color: #404580;
+	font-size: 40px;
+}
+
+.box-especialidade p{
+	color: #444;
+	font-size: 15px;
+	margin-top: 10px;
+	
+}
+
+.box-especialidade h4{
+	font-weight: 300;
+	color: #bababa;
+	text-align: center;
+}
+
+.w50-1 h2{
+	margin-bottom: 10px;
+}
+
+.autor p{
+	font-size: 15px;
+	color: #444;
+	margin-top: 10px;
+	
+	margin: 0 auto;
+}
+
+section.extras{
+	padding: 30px 0;
+	background: #404580;
+}
+
+.servicos-container, .depoimentos-container{
+	padding: 0 20px;
+}
+
+section.extras h2{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.depoimentos-single{
+	padding: 15px 0;
+	border-bottom: 1px solid #5056a0;
+}
+
+p.depoimento-descricao{
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+p.nome-autor{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+.servicos ul{
+	margin: 20px 0;
+	list-style-position: inside;
+}
+
+.servicos li{
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+
+
+
+
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+	img{
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.w50-1{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.w33{
+		width: 100%;
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	.botao-menu-mobile{
+		font-size: 24px;
+		cursor: pointer;
+		color: white;
+		margin-right: 15px;
+	}
+
+	.mobile ul{
+		top: 55px;
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		display: none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	.mobile li{
+		display: block;
+		font-size: 15px;
+		background: white;
+		border-bottom: 1px solid #ccc;
+		font-weight: 300;
+		width: 100%;
+		padding: 8px 0;
+	}
+
+	.mobile li a{
+		color: #444;
+		text-decoration: none;
+		display: block;
+	}
+}

@@ -1,0 +1,61 @@
+*{
+   margin: 0;
+}
+
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    background-color: cornflowerblue;
+    
+}
+
+nav{
+    width: 600px;
+    
+    float: right;
+    text-align: center;
+}
+
+
+
+.menu{
+    width: 500px;
+    float: right;
+    
+    text-align: center;
+    
+}
+
+ul li{
+    padding-right: 50px;
+    display: inline-block;
+    cursor: pointer;
+    
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.container{
+    width: 50%;
+    max-width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    background-color: tomato;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+

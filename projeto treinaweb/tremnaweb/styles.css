@@ -1,0 +1,76 @@
+/*   GERAL*/
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: helvetica, arial, sans-serif;
+	background-color: #161616;
+	color: white;
+}
+
+.section-background{
+	position: relative;
+	background-image: url('./images/bar_interior.jpg');
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*   HEADER*/
+.main-header{
+	position: relative;
+}
+
+.header-video{
+	width: 100%;
+}
+
+
+.header-video{
+	width: 100%;
+}
+
+.navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #3b3b3b;
+	z-index: 100;
+}
+
+.navigation-list{
+	padding: 0;
+}
+
+.navigation-list-item{
+	display: inline-block;
+	padding: 15px;
+}
+
+.nav-link{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+	color: #0079d0;
+}
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+}
+/*   O LUGAR*/
+
+
+
+/*   NOSSOS DRINKS*/
+
+
+
+/*   FOOTER*/

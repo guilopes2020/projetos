@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.um{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+.dois{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.tres{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.quatro{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
